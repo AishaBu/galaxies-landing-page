@@ -1,0 +1,49 @@
+*, *::before, *::after{
+    /*Resets everything to 0 universally*/
+       border: 0;
+       padding: 0;
+       margin: 0;  
+       box-sizing: border-box;
+       }
+
+       body{
+           min-height: 100vh;
+       }
+   
+
+header{
+    background-color: rgb(16, 16, 87);
+    height: 500px;
+}
+
+#logo{
+    font-size: 1.2rem;
+    color: rgb(238, 180, 109);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Verdana', 'sans-serif';
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-shadow: 1px 1px 2px rgb(238, 180, 109);
+}
+
+
+.top-nav ul{
+    display:flex;
+    list-style: none;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+li a:hover{
+    color: rgb(136, 135, 135);
+}
+
