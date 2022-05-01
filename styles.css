@@ -62,12 +62,14 @@ li a:hover{
     flex: 1 1 auto;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .hero-par-text{
     color: antiquewhite;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    position: relative;
+    right: 50px;
 }
 
 #hero-text{
@@ -89,6 +91,7 @@ li a:hover{
     width: 600px;
     height: 300px;
     background-color: rgb(61, 58, 68);
+    border-radius: 10px;
 }
 
 .button{
