@@ -52,8 +52,6 @@ li a:hover{
 }
 
 
-
-
 /*Hero Text and Image*/
 
 .hero-section{
@@ -104,9 +102,9 @@ li a:hover{
     font-size: 1.1rem;
 }
 
-/*Main Section Banners*/
 
-/*Off-White Banner-Section*/
+
+ /*Off-White Banner-Section*/
  
 #off-white-banner{
     background-color: rgb(197, 130, 130);
@@ -119,7 +117,6 @@ li a:hover{
     padding-top: 30px; 
 }
 
-/*Figure Images*/
 .section-images{
     display: flex;
    justify-content: space-evenly;
@@ -138,7 +135,6 @@ li a:hover{
     display: inline-block;
     font-family: 'Segoe UI', Tahoma,Verdana, sans-serif; 
     margin: 20px; 
-    justify-content: center;
 }
 
 .captions figcaption{
