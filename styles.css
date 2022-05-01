@@ -104,3 +104,47 @@ li a:hover{
     font-size: 1.1rem;
 }
 
+/*Main Section Banners*/
+
+/*Off-White Banner-Section*/
+ 
+#off-white-banner{
+    background-color: rgb(197, 130, 130);
+    min-height: 400px;   
+}
+
+#off-white-banner h1{
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    padding-top: 30px; 
+}
+
+/*Figure Images*/
+.section-images{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.image-size{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px; 
+    background-color: gray;
+    border-radius: 10px;
+}
+
+
+.captions{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif; 
+    margin: 20px; 
+    justify-content: center;
+}
+
+.captions figcaption{
+    font-weight: bold;
+}
+
+.captions p{
+    width: 230px;
+}
