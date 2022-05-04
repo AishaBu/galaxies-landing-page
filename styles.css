@@ -104,21 +104,19 @@ li a:hover{
 
 
 
- /*Off-White Banner-Section*
- 
-
-
-/* Test*/
+ /*Off-White Banner-Section*/
  
 #off-white-banner{
     background-color: rgb(255, 255, 255);
-    min-height: 400px;   
+    min-height: 400px;    
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+
 }
 
 #off-white-banner h1{ 
-    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
     text-align: center;
     padding-top: 20px; 
+    color: rgb(2, 2, 12);
 }
 
 .section-images{
@@ -148,6 +146,44 @@ li a:hover{
 
 .captions figcaption{
     font-weight: bold;
+    color: rgb(2, 2, 12);
 }
 
 
+.captions p{
+    text-shadow: 0.6px  rgb(255, 255, 255);
+}
+
+ 
+
+/*Quote Banner*/
+#grey-banner{
+    background-color: rgb(211, 211, 211);
+    min-height: 300px; 
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    opacity: 90%;
+    
+}
+
+.quote{
+    width: 540px;
+    margin: auto;
+    position: relative;
+    top: 80px;
+ 
+ }
+ 
+
+blockquote{
+    font-size: 1.6rem;
+    word-spacing: 3px;
+}
+
+
+.quote-caption{
+    margin-top: 30px;
+    position: relative; 
+    left: 350px;
+    font-weight: bold;
+    opacity: 85%;
+}
