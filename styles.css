@@ -104,42 +104,50 @@ li a:hover{
 
 
 
- /*Off-White Banner-Section*/
+ /*Off-White Banner-Section*
+ 
+
+
+/* Test*/
  
 #off-white-banner{
-    background-color: rgb(197, 130, 130);
+    background-color: rgb(255, 255, 255);
     min-height: 400px;   
 }
 
-#off-white-banner h1{
-    text-align: center; 
+#off-white-banner h1{ 
     font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
-    padding-top: 30px; 
+    text-align: center;
+    padding-top: 20px; 
 }
 
 .section-images{
     display: flex;
-   justify-content: space-evenly;
+    justify-content: space-evenly;   
 }
 
-.image-size{
+.image-size{                            
     width: 200px;
-    height: 200px;
-    margin-top: 50px; 
+    height: 200px; 
+    margin-top: 40px;
     background-color: gray;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 
-.captions{
-    display: inline-block;
-    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif; 
-    margin: 20px; 
+
+#text-captions{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+ .captions{
+    margin: 10px;
+    width: 230px;
 }
 
 .captions figcaption{
     font-weight: bold;
 }
 
-.captions p{
-    width: 230px;
-}
+
