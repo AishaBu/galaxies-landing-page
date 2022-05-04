@@ -100,6 +100,8 @@ li a:hover{
     margin-top: 15px;
     font-weight: bold;
     font-size: 1.1rem;
+   /*background-color: rgb(163, 159, 187); */
+   background-color: rgb(143, 126, 243); 
 }
 
 
@@ -142,6 +144,7 @@ li a:hover{
  .captions{
     margin: 10px;
     width: 230px;
+    padding-bottom: 100px;
 }
 
 .captions figcaption{
@@ -156,21 +159,18 @@ li a:hover{
 
  
 
-/*Quote Banner*/
+/*Grey-Banner-Section*/
 #grey-banner{
     background-color: rgb(211, 211, 211);
     min-height: 300px; 
     font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
     opacity: 90%;
-    
 }
 
 .quote{
-    width: 540px;
-    margin: auto;
-    position: relative;
-    top: 80px;
- 
+   margin: auto;
+   width: 700px;
+   padding: 100px;
  }
  
 
@@ -186,4 +186,51 @@ blockquote{
     left: 350px;
     font-weight: bold;
     opacity: 85%;
+}
+
+
+/*Call-To-Action-Section*/
+
+#call-to-action{
+    background-color: rgb(255, 255, 255);
+    min-height: 300px; 
+    font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.inner-banner{
+    height: 150px;
+    width: 930px;
+    background-color: rgb(143, 126, 243); ; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cta-button{
+    padding: 10px;
+    width: 110px;
+    border-radius: 20px;
+    outline: 2px solid rgb(56, 56, 56);
+    color: black;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: rgb(130, 110, 238);
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(16, 16, 87);
+    min-height: 50px; 
+    font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
+    color: rgb(212, 205, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
