@@ -100,7 +100,6 @@ li a:hover{
     margin-top: 15px;
     font-weight: bold;
     font-size: 1.1rem;
-   /*background-color: rgb(163, 159, 187); */
    background-color: rgb(143, 126, 243); 
 }
 
@@ -112,18 +111,18 @@ li a:hover{
     background-color: rgb(255, 255, 255);
     min-height: 400px;    
     font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
-
 }
 
 #off-white-banner h1{ 
     text-align: center;
     padding-top: 20px; 
-    color: rgb(2, 2, 12);
+    color: rgb(2, 2, 12); 
 }
 
-.section-images{
+.section-images-and-captions{
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
+    padding-bottom: 60px;
 }
 
 .image-size{                            
@@ -131,29 +130,22 @@ li a:hover{
     height: 200px; 
     margin-top: 40px;
     background-color: gray;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-
-#text-captions{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
- .captions{
+ .captions-and-image{
     margin: 10px;
     width: 230px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
-.captions figcaption{
+.captions-and-image figcaption{
     font-weight: bold;
     color: rgb(2, 2, 12);
 }
 
 
-.captions p{
+.captions-and-image p{
     text-shadow: 0.6px  rgb(255, 255, 255);
 }
 
@@ -245,17 +237,12 @@ footer{
 
 
 
-
-
-
-
 /*Media Queries for Mobile Responsivness*/
 
-
-/*414px and below*/
+/*Media Query #1*/  /*414px and below*/
 @media (max-width:414px) {
     
-/*Media Query Logo and Navigation Menu*/
+/*Media Query #1 Logo and Navigation Menu*/
    
 #logo{
     font-size: 1.2rem;
@@ -278,7 +265,7 @@ footer{
 }
 
 
-/*Media Query Hero Text and Image*/
+/*Media Query #1 Hero Text and Image*/
 
 .hero-section{
     margin-top: 20px;
@@ -327,12 +314,21 @@ footer{
     left: 80px;
 }
 
+/*Media Query #1 Off-White-Banner Section*/
 
+    .section-images-and-captions{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
-
-#off-white-banner{
-    display: none;
+  
+.captions-and-image figcaption, .captions-and-image p{
+    margin-top: 5px;
+    width: 230px;
+    padding-bottom: 0px;
 }
+
 
 #grey-banner{
     display: none;
@@ -350,10 +346,6 @@ footer{
 
 
 }
-
-
-
-
 
 
 
