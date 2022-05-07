@@ -234,15 +234,72 @@ footer{
 
 
 
-
-
-
 /*Media Queries for Mobile Responsivness*/
 
-/*Media Query #1*/  /*414px and below*/
-@media (max-width:414px) {
+
+/*Media Query #1*/ /* Galaxy Fold 280px and below*/
+@media (max-width:280px){
+
+    /*Media Query #1 Hero Section*/
+    header{
+        background-color: rgb(16, 16, 87);
+        min-height: 500px;
+        width: 100%;
+    }
+
+
+    #hero-text{
+        font-size: 1.5rem;
+        color: rgb(238, 180, 109);
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
     
-/*Media Query #1 Logo and Navigation Menu*/
+    #hero-par{
+        width: 300px;
+        font-size: 0.8rem;
+        word-spacing: 1.5px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+    
+    .hero-image{
+        width: 600px;
+        height: 300px;
+        background-color: rgb(61, 58, 68);
+        border-radius: 10px;
+    }
+
+    #grey-banner{
+       display: none;
+    }
+    
+    #call-to-action{
+        display: none;
+    }
+    
+    
+    footer{
+       display: none;
+    
+    }
+
+
+}
+
+
+
+
+/*Media Query #2*/  /*690px and below*/
+@media (max-width:690px) {
+    
+/*Media Query #2 Logo and Navigation Menu*/
    
 #logo{
     font-size: 1.2rem;
@@ -265,7 +322,7 @@ footer{
 }
 
 
-/*Media Query #1 Hero Text and Image*/
+/*Media Query #2 Hero Text and Image*/
 
 .hero-section{
     margin-top: 20px;
@@ -314,7 +371,7 @@ footer{
     left: 80px;
 }
 
-/*Media Query #1 Off-White-Banner Section*/
+/*Media Query #2 Off-White-Banner Section*/
 
     .section-images-and-captions{
         display: flex;
@@ -323,7 +380,7 @@ footer{
     }
 
   
-.captions-and-image figcaption, .captions-and-image p{
+    .captions-and-image figcaption, .captions-and-image p{
     margin-top: 5px;
     width: 230px;
     padding-bottom: 0px;
@@ -351,11 +408,13 @@ footer{
 
 
 
-/*Media Qeury #2*/
-/*500px and above and less than 1200px*/
-@media (min-width:500px) and (max-width:1200px) {
 
-    /*Media Query #2 Logo and Navigation Menu*/
+
+/*Media Qeury #3*/
+/*691px and above and less than 1200px*/
+@media (min-width:691px) and (max-width:1200px) {
+
+    /*Media Query #3 Logo and Navigation Menu*/
     
     header{
         background-color: rgb(16, 16, 87);
@@ -382,7 +441,7 @@ footer{
     }
     
 
-    /*Media Query #2 Hero Text and Image*/
+    /*Media Query #3 Hero Text and Image*/
 
     .hero-section{
         margin-top: 20px;
@@ -434,9 +493,6 @@ footer{
         left: 80px;
     }
     
-
-
-
 
    
     #off-white-banner{
