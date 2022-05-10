@@ -473,7 +473,7 @@ blockquote{
     width: 110px;
     border-radius: 20px;
     outline: 2px solid rgb(56, 56, 56);
-    box-shadow: 0 0 0 1pt rgb(56, 56, 56) ;
+    overflow: hidden;
     color: black;
     margin-top: 20px;
     font-weight: bold;
