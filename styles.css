@@ -315,8 +315,8 @@ footer{
 
 
 
-/*Media Query #2*/  /*540px and below*/
-@media (max-width:540px) {
+/*Media Query #2*/  /*690px and below*/
+@media (max-width:690px) {
     
 /*Media Query #2 Logo and Navigation Menu*/
    
@@ -491,8 +491,8 @@ blockquote{
 
 
 /*Media Qeury #3*/
-/*541px and above and less than 1200px*/
-@media (min-width:541px) and (max-width:1200px) {
+/*691px and above and less than 1200px*/
+@media (min-width:691px) and (max-width:1200px) {
 
     /*Media Query #3 Logo and Navigation Menu*/
     
