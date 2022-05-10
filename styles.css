@@ -591,7 +591,7 @@ blockquote{
     }
    
   
-    /*Grey-Banner-Section*/
+    /*Media Query #3 Grey-Banner-Section*/
     #grey-banner{
         background-color: rgb(211, 211, 211);
         min-height: 300px; 
@@ -635,7 +635,7 @@ blockquote{
 
     .inner-banner{
         height: 200px;
-        width: 930px;
+        width: 100%;
         background-color: rgb(143, 126, 243); ; 
         border-radius: 0px;
         display: flex;
