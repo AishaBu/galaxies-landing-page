@@ -276,6 +276,13 @@ footer{
         border-radius: 10px;
     }
 
+        /*Grey-Banner-Section*/
+        #grey-banner{
+        background-color: rgb(211, 211, 211);
+        min-height: 300px; 
+        font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+        opacity: 90%;
+    }
 
     .quote{
         margin: auto;
