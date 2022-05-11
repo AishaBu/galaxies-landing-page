@@ -534,6 +534,7 @@ blockquote{
     background-color: rgb(130, 110, 238);
     position: relative;
     right: 30px;
+    overflow: hidden;
 }
 
 
