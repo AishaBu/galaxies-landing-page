@@ -307,7 +307,7 @@ footer{
     }
 
     .quote{
-        width: 700px;
+        width: 455px;
         padding: 50px;
         position: relative;
         right: 30px;
@@ -467,8 +467,8 @@ footer{
 
 .quote{
     margin: auto;
-    width: 700px;
-    padding: 100px;
+    width: 420px;
+    padding: 80px;
   }
 
 blockquote{
