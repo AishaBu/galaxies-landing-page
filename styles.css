@@ -211,7 +211,7 @@ blockquote{
     padding: 10px;
     width: 110px;
     border-radius: 20px;
-    outline: 2px solid rgb(56, 56, 56);
+    box-shadow: 1px 1px 1px rgb(56, 56, 56);
     color: black;
     margin-left: 80px;
     font-weight: bold;
@@ -346,14 +346,10 @@ footer{
 
     }
     
- 
-
 
 }
 
 
-
-/**
 
 /*Media Query #2*/  /*690px and below*/
 @media (max-width:690px) {
@@ -471,7 +467,7 @@ footer{
 
 .quote{
     margin: auto;
-    width: 450px;
+    width: 360px;
     padding: 100px;
   }
 
@@ -526,7 +522,7 @@ blockquote{
     padding: 10px;
     width: 110px;
     border-radius: 20px;
-    outline-style: 2px solid rgb(56, 56, 56);
+    box-shadow: 1px 1px 1px rgb(56, 56, 56);
     color: black;
     margin-top: 20px;
     font-weight: bold;
@@ -534,7 +530,6 @@ blockquote{
     background-color: rgb(130, 110, 238);
     position: relative;
     right: 30px;
-    overflow: hidden;
 }
 
 
@@ -709,7 +704,7 @@ blockquote{
         padding: 10px;
         width: 110px;
         border-radius: 20px;
-        outline: 2px solid rgb(56, 56, 56);
+        box-shadow: 1px 1px 1px rgb(56, 56, 56);
         color: black;
         margin-top: 20px;
         font-weight: bold;
