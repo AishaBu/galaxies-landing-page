@@ -6,8 +6,10 @@
        box-sizing: border-box;
        }
 
+
        body{
-           min-height: 100vh;
+        min-height: 100vh;
+        width: 100vw;
        }
    
 
@@ -15,6 +17,7 @@
 header{
     background-color: rgb(16, 16, 87);
     min-height: 500px;
+    width: 100%;
 }
 
 #logo{
@@ -244,7 +247,7 @@ footer{
     header{
         background-color: rgb(16, 16, 87);
         min-height: 500px;
-        width: 100%;
+        min-width: 400px;
     }
 
 
@@ -276,20 +279,38 @@ footer{
         border-radius: 10px;
     }
 
-        /*Grey-Banner-Section*/
+    /*Media Query #1 Off-White Banner-Section*/
+
+    #off-white-banner{
+        background-color: rgb(255, 255, 255);
+        min-height: 400px; 
+        min-width: 400px;
+        font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    }
+
+
+    #off-white-banner h1{ 
+        text-align: center;
+        padding-top: 20px; 
+        color: rgb(2, 2, 12); 
+        font-size: 1.2rem;
+    }
+    
+        /*Media Query #1 Grey-Banner-Section*/
         #grey-banner{
         background-color: rgb(211, 211, 211);
-        min-height: 300px; 
+        min-height: 300px;
+        min-width: 400px;
         font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
         opacity: 90%;
     }
 
     .quote{
-        margin: auto;
         width: 450px;
-        padding: 100px;
+        padding: 50px;
         position: relative;
-        right: 80px;
+        right: 30px;
+
     }
 
     blockquote{
@@ -310,16 +331,40 @@ footer{
 }
 
 
+    /*Media Query #1 Call-To-Action-Section*/
+
+    #call-to-action{
+        background-color: rgb(255, 255, 255);
+        min-height: 100px; 
+        font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 40px;
+
+    }
+    
+ 
+
+
 }
 
 
 
+/**
 
 /*Media Query #2*/  /*690px and below*/
 @media (max-width:690px) {
     
 /*Media Query #2 Logo and Navigation Menu*/
-   
+    header{
+        background-color: rgb(16, 16, 87);
+        min-height: 500px;
+    }
+
+
+
 #logo{
     font-size: 1.2rem;
     color: rgb(238, 180, 109);
@@ -392,6 +437,14 @@ footer{
 }
 
 /*Media Query #2 Off-White-Banner Section*/
+
+     #off-white-banner h1{ 
+        text-align: center;
+        padding-top: 20px; 
+        color: rgb(2, 2, 12); 
+        font-size: 1.1rem;
+    }
+    
 
     .section-images-and-captions{
         display: flex;
@@ -472,8 +525,7 @@ blockquote{
     padding: 10px;
     width: 110px;
     border-radius: 20px;
-    outline: 2px solid rgb(56, 56, 56);
-    overflow: hidden;
+    outline-style: 2px solid rgb(56, 56, 56);
     color: black;
     margin-top: 20px;
     font-weight: bold;
@@ -595,8 +647,6 @@ blockquote{
         text-align: center;
         padding-top: 20px; 
         color: rgb(2, 2, 12); 
-        position: relative;
-        right: 200px;
     }
    
   
@@ -665,6 +715,5 @@ blockquote{
         background-color: rgb(130, 110, 238);
     }
 
-    
     
     }
