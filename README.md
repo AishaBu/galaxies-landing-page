@@ -8,15 +8,13 @@ The images used for this assignment are from [Unsplash](https://unsplash.com/), 
 
 <table>
     <tr>
-    <td><img src="./readme-file-images/galaxies-landing-page-web.png"></td>
+    <td><img src="./readme-file-images/galaxies-landing-page-web.png"></td> 
+    <td><img src="./readme-file-images/galaxies-landing-page-web-two.png"></td>
+    <td><img src="./readme-file-images/galaxies-landing-page-mobile.png"></td>
     </tr>
 </table>
 
-<table>
-    <tr>
-    <td><img src="./readme-file-images/galaxies-landing-page-web-two.png"></td>
-    </tr>
-</table>
+
 
 
 
