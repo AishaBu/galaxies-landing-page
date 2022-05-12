@@ -10,7 +10,6 @@ The images used for this assignment are from [Unsplash](https://unsplash.com/), 
     <tr>
     <td><img src="./readme-file-images/galaxies-landing-page-web.png"></td> 
     <td><img src="./readme-file-images/galaxies-landing-page-web-two.png"></td>
-    <td><img src="./readme-file-images/galaxies-landing-page-mobile.png"></td>
     </tr>
 </table>
 
