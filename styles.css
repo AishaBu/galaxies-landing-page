@@ -460,12 +460,17 @@ footer{
     min-height: 300px; 
     font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
     opacity: 90%;
+    /**/
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote{
-    margin: auto;
-    width: 450px;
-    padding: 100px;
+    margin:0;
+    padding: 0;
+    width: 330px;
    
   }
 
@@ -473,15 +478,13 @@ blockquote{
     font-size: 1.1rem;
     word-spacing: 1px;
     text-align: left; 
-  /* position: relative;
-    right: 50px; */
 }
 
 
 .quote-caption{
     margin-top: 30px;
     position: relative; 
-    left: 0px;
+    left: 100px;
     right: 0px;
     font-weight: bold;
     opacity: 85%;
@@ -630,7 +633,7 @@ blockquote{
 
     .section-images-and-captions{
         display: grid;
-        grid-template-columns: 100px 100px;
+        grid-template-columns: 200px 200px;
     }
 
 
@@ -643,7 +646,7 @@ blockquote{
     #off-white-banner h1{ 
         text-align: center;
         padding-top: 20px; 
-        color: rgb(2, 2, 12); 
+        color: rgb(2, 2, 12);
     }
    
   
