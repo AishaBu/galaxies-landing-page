@@ -13,7 +13,13 @@ The images used for this assignment are from [Unsplash](https://unsplash.com/), 
     </tr>
 </table>
 
-
+<table>
+    <tr>
+    <td><img src="./readme-file-images/galaxies-landing-page-mobile-one.png"></td> 
+    <td><img src="./readme-file-images/galaxies-landing-page-mobile-two.png"></td>
+     <td><img src="./readme-file-images/galaxies-landing-page-mobile-three.png"></td>
+    </tr>
+</table>
 
 
 
