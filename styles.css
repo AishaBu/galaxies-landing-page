@@ -473,8 +473,8 @@ blockquote{
     font-size: 1.1rem;
     word-spacing: 1px;
     text-align: left; 
-    position: relative;
-    right: 50px; 
+  /* position: relative;
+    right: 50px; */
 }
 
 
