@@ -221,17 +221,33 @@ blockquote{
 
 /*Footer*/
 
-footer{
+footer {
     background-color: rgb(16, 16, 87);
     min-height: 50px; 
-    font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
-    color: rgb(212, 205, 196);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+footer p{
+    font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
+    color: rgb(212, 205, 196);
+}
 
+footer img{
+    background-color: white;
+    border-radius: 70%;
+    margin: 5px;
+}
+
+footer img:hover{
+    border-radius: 60%;
+    box-shadow: 1px 1px  rgb(16, 16, 87);
+    border: 1px solid rgb(16, 16, 87) ;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg) scale(1.2);
+    background-color: white;
+}
 
 
 

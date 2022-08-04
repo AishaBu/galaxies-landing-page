@@ -31,6 +31,8 @@ The images used for this assignment are from [Unsplash](https://unsplash.com/), 
 
 [GoodReads, Inc.](https://www.goodreads.com/quotes/16855-you-are-a-child-of-the-universe-no-less-than)
 
+[Github icons created by Laisa Islam Ani - Flaticon](https://www.flaticon.com/free-icons/github)
+
 
 **Odin Project**
 
