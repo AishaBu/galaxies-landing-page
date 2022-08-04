@@ -22,7 +22,6 @@ The images used for this assignment are from [Unsplash](https://unsplash.com/), 
 </table>
 
 
-
 **Sources:**
 
 [Unsplash](https://unsplash.com/)
